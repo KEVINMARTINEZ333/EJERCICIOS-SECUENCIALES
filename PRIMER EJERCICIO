@@ -1,0 +1,8 @@
+//este programa te saluda al saber tu nombre :D.
+PROCESO SALUDOPARATI
+  ESCRIBIR " si quieres un saludo debes ingresar tu nombre"
+  LEER NOMBRE
+  ESCRIBIR " "
+  ESCRIBIR " "
+  ESCRIBIR " Holaa ",NOMBRE," eres genial, que tengas un buen dìa y logres tus objetivos de hoy :D"
+FINPROCESO
