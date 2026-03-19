@@ -1,0 +1,9 @@
+Algoritmo hipotenusa
+	Escribir "este programa calcula la hipotenusa con el valor de sus catetos"
+	Escribir "ingrese el primer cateto"
+	Leer  C1
+	Escribir "digite el segundo cateto"
+	Leer C2
+	HIPO = C1 * 2 + C2 * 2 /2
+	Escribir " el valor de la hipotenusa es de:    ",HIPO
+FinAlgoritmo
