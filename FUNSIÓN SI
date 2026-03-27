@@ -1,0 +1,13 @@
+Algoritmo detecta_edad
+	
+	Escribir  "programa que dtecta si eres mayor de edad"
+	Escribir "digite su nombre"
+	Leer nombre
+	Escribir "digite su edad"
+	Leer edad
+		si edad >= 18 Entonces
+			Escribir nombre," es myor de edad"
+			sino
+			Escribir nombre," es menor de edad"
+		FinSi
+FinAlgoritmo
