@@ -1,0 +1,7 @@
+Algoritmo converción_temperatura
+	Escribir "este programa convierte los grados de fahrenheit a grados celsius"
+	Escribir "digite los grados fahrenheit"
+	Leer  F
+	C= (F-32) * 5/9
+	Escribir "grados celsius = ", c 
+FinAlgoritmo
