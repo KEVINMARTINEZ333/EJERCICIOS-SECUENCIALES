@@ -1,0 +1,11 @@
+Algoritmo cantidad_minutos_en_horas_minutos
+	Escribir "este programa analiza la cantidad de número que corresponden a las horas y minutos q de"
+	Escribir "digite los minutos"
+	Leer min1
+	HORAS <- TRUNC (min1/60)
+	MIN <- min1 MOD 60
+	
+	Escribir "horas: ", HORAS
+	Escribir  "minutos: ", MIN
+	
+FinAlgoritmo
