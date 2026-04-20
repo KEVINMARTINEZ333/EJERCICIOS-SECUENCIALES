@@ -1,0 +1,11 @@
+Algoritmo calculo_la_media
+	Escribir "este programa halla la media de 3 números"
+	Escribir  "digite el primer número"
+	Leer N1
+	Escribir  "digite el segundo número"
+	Leer N2
+	Escribir "digite el tercer número"
+	Leer N3
+	media <- (N1 + N2 + N3)/3
+	Escribir "la media es: ", media
+FinAlgoritmo
