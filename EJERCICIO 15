@@ -1,0 +1,11 @@
+Algoritmo IntercambiarVariables
+    Definir A, B, auxiliar Como Real
+    Escribir "Introduce el valor de A:"
+    Leer A
+    Escribir "Introduce el valor de B:"
+    Leer B
+    auxiliar <- A
+    A <- B
+    B <- auxiliar
+    Escribir "Nuevos valores -> A: ", A, " y B: ", B
+FinAlgoritmo
