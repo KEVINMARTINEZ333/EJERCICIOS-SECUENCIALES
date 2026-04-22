@@ -1,0 +1,10 @@
+Algoritmo Raices
+    Definir num, raiz_cuadrada, raiz_cubica Como Real
+    Escribir "Introduce un número:"
+    Leer num
+    raiz_cuadrada <- raiz(num)
+    // En PSeInt la raíz cúbica se calcula elevando a la fracción 1/3
+    raiz_cubica <- num ^ (1/3)
+    Escribir "La raíz cuadrada es: ", raiz_cuadrada
+    Escribir "La raíz cúbica es: ", raiz_cubica
+FinAlgoritmo
