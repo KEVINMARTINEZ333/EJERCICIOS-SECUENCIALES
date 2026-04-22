@@ -1,0 +1,18 @@
+Algoritmo HoraDeLlegada
+    Definir HH, MM, SS, T Como Entero
+    Definir tiempo_inicial_seg, tiempo_final_seg Como Entero
+    Definir h_llegada, m_llegada, s_llegada Como Entero
+    Escribir "Introduce hora de salida (HH, MM, SS):"
+    Leer HH, MM, SS
+    Escribir "Introduce el tiempo de viaje en segundos (T):"
+    Leer T
+    
+    tiempo_inicial_seg <- (HH * 3600) + (MM * 60) + SS
+    tiempo_final_seg <- tiempo_inicial_seg + T
+    
+    h_llegada <- trunc(tiempo_final_seg / 3600) MOD 24
+    m_llegada <- trunc((tiempo_final_seg MOD 3600) / 60)
+    s_llegada <- tiempo_final_seg MOD 60
+    
+    Escribir "Hora de llegada: ", h_llegada, ":", m_llegada, ":", s_llegada
+FinAlgoritmo
