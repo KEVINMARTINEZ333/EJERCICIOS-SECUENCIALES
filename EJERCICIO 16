@@ -1,0 +1,12 @@
+Algoritmo TiempoAlcance
+    Definir v1, v2, d, t_horas, t_minutos Como Real
+    Escribir "Introduce la velocidad del vehículo lento de adelante (km/h):"
+    Leer v1
+    Escribir "Introduce la velocidad del vehículo rápido de atrás (km/h):"
+    Leer v2
+    Escribir "Introduce la distancia de separación entre ellos (km):"
+    Leer d
+    t_horas <- d / (v2 - v1)
+    t_minutos <- t_horas * 60
+    Escribir "El vehículo más rápido lo alcanzará en ", t_minutos, " minutos."
+FinAlgoritmo
