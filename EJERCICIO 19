@@ -1,0 +1,11 @@
+Algoritmo NotaEstudiante
+    Definir correctas, incorrectas, blanco, puntaje Como Entero
+    Escribir "Número de respuestas correctas:"
+    Leer correctas
+    Escribir "Número de respuestas incorrectas:"
+    Leer incorrectas
+    Escribir "Número de respuestas en blanco:"
+    Leer blanco
+    puntaje <- (correctas * 5) + (incorrectas * (-1)) + (blanco * 0)
+    Escribir "El puntaje total obtenido es: ", puntaje
+FinAlgoritmo
